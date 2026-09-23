@@ -1,0 +1,108 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+public/
+
+# Logs
+*.log
+*.log.*
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.test
+.env.production
+.env.*.local
+env/
+venv/
+
+# IDE files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.idea/
+*.iml
+
+# Temporary files
+tmp/
+.tmp/
+.cache/
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Docker
+.dockercfg
+.docker/config.json
+
+# API keys, database passwords, tokens
+config/secrets.json
+config/credentials.json
+config/secrets.yml
+config/database.yml
+secrets.yml
+
+# AWS, GCP, Azure credentials
+.aws/credentials
+.aws/config
+.gcp/
+.azure/
+
+# SSH key
+id_rsa
+id_ed25519
+*.pem
+
+# Database backups with embedded passwords
+*.sql
+*.dump
+
+# Build artifacts
+*.tgz
+*.zip
+*.tar.gz
+*.tar
+
+# Local configuration files
+*.local
+*.local.json
+*.local.yml
+
+# Node cache
+.npm/
+.yarn/cache/
+.pnp.*
+.pnp.js
+
+# Coverage reports
+coverage/
+*.lcov
+
+# TypeScript files
+*.tsbuildinfo
+*.d.ts
+
+# Miscellaneous
+*.orig
+*.pid
+*.seed
+*.seed.*
+*.bak
+*.swo
+*.swp

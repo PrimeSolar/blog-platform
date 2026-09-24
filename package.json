@@ -1,0 +1,37 @@
+{
+  "name": "blog-platform",
+  "version": "1.0.0",
+  "description": "Responsive, accessible blog platform showcasing full stack development with Node.js, Express.js, EJS, modern JS (JavaScript), CRUD operations, semantic HTML, custom CSS, and SEO best practices. Architected by full stack developer Vladislav Kazantsev.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express blog",
+    "ejs template engine",
+    "CRUD nodejs",
+    "accessible blog",
+    "Node.js",
+    "Express.js",
+    "EJS",
+    "responsive design",
+    "semantic HTML5",
+    "full-stack"
+  ],
+  "author": "Vladislav Kazantsev",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsdom": "^26.0.0"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.11.1",
+    "@eslint/js": "^9.36.0",
+    "@eslint/json": "^0.13.2",
+    "@eslint/markdown": "^7.3.0",
+    "eslint": "^9.36.0",
+    "globals": "^16.4.0"
+  }
+}

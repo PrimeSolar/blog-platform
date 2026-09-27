@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:json/recommended",
+    "plugin:markdown/recommended",
+    "plugin:css/recommended"
+  ],
+  "plugins": ["json", "jsonc", "markdown", "css"],
+  "rules": {
+    "indent": ["error", 2],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"]
+  }
+}
